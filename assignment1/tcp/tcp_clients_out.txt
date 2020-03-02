@@ -1,0 +1,32 @@
+Client A : 
+
+python3 tcp_client.py
+Please enter arguments in the format [client id] [delay in seconds between messages] [number of 'ping' messages]
+A 8 5        
+Sending data:ping
+Received data:pong
+Sending data:ping
+Received data:pong
+Sending data:ping
+Received data:pong
+Sending data:ping
+Received data:pong
+Sending data:ping
+Received data:pong
+
+
+
+Client B :
+ 
+python3 tcp_client.py
+Please enter arguments in the format [client id] [delay in seconds between messages] [number of 'ping' messages]
+B 6 4
+Sending data:ping
+Received data:pong
+Sending data:ping
+Received data:pong
+Sending data:ping
+Received data:pong
+Sending data:ping
+Received data:pong
+

@@ -1,0 +1,7 @@
+UDP Server Output : 
+
+python3 udp_server.py 
+Server Started at port 4000
+Accepting a file upload...
+File upload Successfully completed.
+

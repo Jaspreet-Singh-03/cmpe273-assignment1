@@ -1,0 +1,17 @@
+Server Output :
+
+python3 tcp_server.py 
+Server Started at port 5000
+Connected Client:A
+Received Data:A:ping
+Received Data:A:ping
+Connected Client:B
+Received Data:B:ping
+Received Data:B:ping
+Received Data:A:ping
+Received Data:B:ping
+Received Data:A:ping
+Received Data:B:ping
+Received Data:A:ping
+
+
