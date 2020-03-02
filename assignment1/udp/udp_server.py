@@ -2,7 +2,7 @@ import socket
 import time
 UDP_IP = '127.0.0.1'
 UDP_PORT = 4000
-BUFFER_SIZE = 32
+BUFFER_SIZE = 1024
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 server_socket.bind((UDP_IP, UDP_PORT))
@@ -21,8 +21,9 @@ def listen_forever():
         ACK_MESSAGE = f"{message[0]}"
         file.append(message[1])
         server_socket.sendto(ACK_MESSAGE.encode(),ip)
+#        print(buffered_message)
         if buffered_message[-1] != "\n":
-            print("File upload Successfully completed.")
+            print("Upload Successfully completed.")
             flag = True
 
 

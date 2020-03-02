@@ -3,7 +3,7 @@ import os.path
 
 UDP_IP = '127.0.0.1'
 UDP_PORT = 4000
-BUFFER_SIZE = 32
+BUFFER_SIZE = 1024
 
 
 def send():
